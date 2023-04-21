@@ -3,7 +3,7 @@ WATT-EffNet: A Lightweight and Accurate Model for Classifying Aerial Disaster Im
 
 Authors: Gao Yu Lee, Tanmoy Dam, Md Meftahul Ferdaus, Daniel Puiu Poenar and Vu N. Duong
 
-Abstract: ncorporating deep learning (DL) classification mod-
+Abstract: Incorporating deep learning (DL) classification mod-
 els into unmanned aerial vehicles (UAVs) can significantly aug-
 ment search-and-rescue operations and disaster management
 efforts. In such critical situations, the UAV’s ability to promptly
