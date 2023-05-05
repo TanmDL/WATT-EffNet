@@ -18,7 +18,7 @@ of WATT-EffNet on accuracy and computational efficiency.
 
 See WATT-EffNet Structure FINAL.png for an illustration of our algorithmic architecture design.
 
-(This github repository is still updating in progress. Stay tune for more information.)
+**(This github repository is updating in progress. Stay tune for more updates.)**
 
 # Dataset
 
