@@ -15,3 +15,5 @@ We evaluate our method on a UAV-based aerial disaster image classification datas
 baseline by up to 15 times in terms of classification accuracy and 38.3% in terms of computing efficiency as measured by Floating
 Point Operations per second (FLOPs). Additionally, we conduct an ablation study to investigate the effect of varying the width
 of WATT-EffNet on accuracy and computational efficiency.
+
+(This github repository is still updating in progress. Stay tune for more information.)
