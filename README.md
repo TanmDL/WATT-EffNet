@@ -75,7 +75,16 @@ A minimal code for training and our proposed network is provided within the code
 
 Please cite the following paper if you find it useful for your work:
 
-G. Y. Lee, T. Dam, M. M. Ferdaus, D. P. Poenar, and V. N. Duong, “Watt-EffNet: A lightweight and accurate model for classifying aerial disaster images,” IEEE Geoscience and Remote Sensing Letters, pp. 1–1, 2023. 
+G. Y. Lee, T. Dam, M. M. Ferdaus, D. P. Poenar, and V. N. Duong, “Watt-EffNet: A lightweight and accurate model for classifying aerial disaster images,” IEEE Geoscience and Remote Sensing Letters, pp. 1–1, 2023 (In Press). 
+
+####
+@article{lee2023watt,
+  title={WATT-EffNet: A Lightweight and Accurate Model for Classifying Aerial Disaster Images},
+  author={Lee, Gao Yu and Dam, Tanmoy and Ferdaus, Md Meftahul and Poenar, Daniel Puiu and Duong, Vu N},
+  journal={IEEE Geoscience and Remote Sensing Letters},
+  year={2023},
+  publisher={IEEE}
+}
 
 # Some References
 
