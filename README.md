@@ -16,8 +16,8 @@ baseline by up to 15 times in terms of classification accuracy and 38.3% in term
 Point Operations per second (FLOPs). Additionally, we conduct an ablation study to investigate the effect of varying the width
 of WATT-EffNet on accuracy and computational efficiency.
 
-See AIDER Images Examples.png for an illustration of some AIDER class images.
-See WATT-EffNet Structure FINAL.png for an illustration of our algorithmic architecture design.
+See AIDER Images Examples.png in the Figure folder for an illustration of some AIDER class images.
+See WATT-EffNet Structure FINAL.png in the Figure folder for an illustration of our algorithmic architecture design.
 
 **(This github repository is updating in progress. Stay tune for more updates.)**
 
