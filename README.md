@@ -10,7 +10,7 @@ See WATT-EffNet Structure FINAL.png in the Figure folder for an illustration of 
 
 A version of our paper is available at arxiv: https://arxiv.org/pdf/2304.10811.pdf 
 
-**(This github repository is updating in progress. Stay tune for more updates.)**
+**(This github repository is still updating in progress. Stay tune.)**
 
 # Dataset
 
