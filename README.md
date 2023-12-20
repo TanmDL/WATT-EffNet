@@ -8,6 +8,8 @@ Abstract: Incorporating deep-learning (DL) classification models into unmanned a
 See AIDER Images Examples.png in the Figure folder for an illustration of some AIDER class images.
 See WATT-EffNet Structure FINAL.png in the Figure folder for an illustration of our algorithmic architecture design.
 
+A version of our paper is available at arxiv: https://arxiv.org/pdf/2304.10811.pdf 
+
 **(This github repository is updating in progress. Stay tune for more updates.)**
 
 # Dataset
