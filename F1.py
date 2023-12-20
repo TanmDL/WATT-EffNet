@@ -18,7 +18,3 @@ def f1_m(y_true, y_pred):    # F1 score
     precision = precision_m(y_true, y_pred)
     recall = recall_m(y_true, y_pred)
     return 2*((precision*recall)/(precision+recall+K.epsilon()))
-
-print(recall_m(onehot_encodedtest.astype('float32'),predicted_label.astype('float32')))
-print(precision_m(onehot_encodedtest.astype('float32'),predicted_label.astype('float32')))
-print(f1_m(onehot_encodedtest.astype('float32'),predicted_label.astype('float32')))
