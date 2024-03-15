@@ -59,8 +59,15 @@ All the SOTA and our approach are trained from scratch on the AIDER subset and s
 | EmergencyNet [2]| 84.5 | 185 | **94,420** |
 | **WATT-EffNet-3-6** | **88.5** | **22** | 688,661 |
 
-# Code
-(Instructions to be updated later).
+# Code Instructions
+1) Run Data_loading.py. This would load the AIDER data subset, sort the images and labels into the five respective classes, and split them into train, valid and test set.
+2) Due to the imbalance class nature of the subset, run Undersampling.py to perform undersampling of the classes so that the imbalance would be removed.
+3) Run one_hot_encode.py to convert the numerical labels into one-hot encoded label.
+4) Run Attention.py for the attention module.
+5) Run the MBConvblocks.py.
+6) Run the watt-effnet-3-6.py. Note that based on our experiment, the WATT-EffNet-3-6 is the ideal WATT-EffNet configuration. The attention is imbued in the architecture.
+7) Proceed to train the model.
+8) Finally, run the F1 metrics.py to output the F1 score, and the compute_flops.py to output the flops value.
 
 # Citation Information
 
