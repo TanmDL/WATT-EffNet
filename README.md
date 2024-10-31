@@ -10,7 +10,8 @@ See WATT-EffNet Structure FINAL.png in the Figure folder for an illustration of 
 
 A version of our paper is available at arxiv: https://arxiv.org/pdf/2304.10811.pdf 
 
-**(This repo may be updated. Stay tune.)**
+
+**This repo is currently being updated to suit to latest ver of tensorflow/keras. Please stay tune for updates.**
 
 # Dataset
 
