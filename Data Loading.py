@@ -1,3 +1,5 @@
+#################### Import relevant library packages ###############
+
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import os
 import keras
@@ -29,7 +31,6 @@ from tensorflow.keras.activations import relu
 from PIL import Image
 import re
 
-
 #### Download the AIDER subset dataset from https://zenodo.org/records/3888300 and placed them in your directory of choice ############
 
 def natural_sort_key(s, _nsre=re.compile('([0-9]+)')):
@@ -60,9 +61,7 @@ data_train_flood = load_images(path_flood)
 data_train_traffic = load_images(path_traffic)
 data_train_normal= load_images(path_normal)
 
-########################################################################################
-
-# Prepare array for storing images and labels.
+####################### Prepare array for storing images and labels.###################################
 
 imgarraybuilding =  []
 labelarraybuilding = []
@@ -258,7 +257,7 @@ for e in X_testn:
     imgarraynormal_test.append(e)
     labelarraynormal_test.append(4)
 
-############### Combine respective class arrays into one whole train,valid,  test arrays ###################
+############### Combine respective class arrays into one whole train,valid,test arrays ###################
 
 trainarray = []
 trainlabel = []
@@ -367,7 +366,7 @@ for E5 in labelarraynormal_valid:
 for E6 in labelarraynormal_test:
     testlabel.append(E6)
 
-###############################################
+################ Array tuple for train, valid and test set ########################
 
 training_AIDER =  []
 valid_AIDER =  []
@@ -382,9 +381,7 @@ for c, d in zip(validarray,validlabel):
 for e, f in zip(testarray,testlabel):
     test_AIDER.append([e,f])
 
-#############################################
-
-# Shuffle img array and label (Important to randomize order)
+####### Shuffle img array and label (Important to randomize order) ##########
 
 from sklearn.utils import shuffle
 
