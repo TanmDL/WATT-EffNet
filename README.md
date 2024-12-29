@@ -68,7 +68,7 @@ All the SOTA and our approach are trained from scratch on the AIDER subset and s
 5) Run the MBConvblocks.py. **Note: tf.keras.ops has been used instead of tf.keras on certain keras operation, as the latter is obsolete in the newest version. Also, tf_keras instead of tf.keras in the Sequential syntax has been used.**
 6) Run the watt-effnet-3-6.py. Note that based on our experiment, the WATT-EffNet-3-6 is the ideal WATT-EffNet configuration. The attention is imbued in the architecture. **Note: tf.keras.ops has been used instead of tf.keras on certain keras operation, as the latter is obsolete in the newest version. Also, tf_keras instead of tf.keras in the Sequential syntax has been used.**
 7) Proceed to train the model. This is found under training.py.
-8) Finally, run the F1 metrics.py to output the F1 score, and the compute_flops.py to output the flops value.
+8) Finally, run the F1.py to output the F1 score, and the compute_flops.py to output the flops value.
 
 
 # Citation Information
