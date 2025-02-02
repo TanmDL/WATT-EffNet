@@ -120,3 +120,7 @@ def spatial_attention(input_feature):
         cbam_feature = Permute((3, 1, 2))(cbam_feature)
 
     return multiply([input_feature, cbam_feature])
+    if K.image_data_format() == "channels_first":
+        cbam_feature = Permute((3, 1, 2))(cbam_feature)
+
+    return multiply([input_feature, cbam_feature])
