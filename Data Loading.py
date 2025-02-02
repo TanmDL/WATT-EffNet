@@ -397,3 +397,9 @@ new_y_valid  = [w[1] for w in finalval]
 
 new_X_test = [v[0] for v in finaltest]
 new_y_test  = [v[1] for v in finaltest]
+
+new_X_valid = [w[0] for w in finalval]
+new_y_valid  = [w[1] for w in finalval]
+
+new_X_test = [v[0] for v in finaltest]
+new_y_test  = [v[1] for v in finaltest]
